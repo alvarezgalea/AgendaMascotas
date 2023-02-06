@@ -17,3 +17,12 @@ use App\Http\Controllers\ClientesController;
     return view('welcome');
 });*/
 Route::get('/inicio/home', [ClientesController::class, 'index']);
+
+
+Auth::routes();
+
+
+Route::get('/citas', [App\Http\Controllers\CitasController::class, 'index']);
+Route::post('/citas/agregar', [App\Http\Controllers\CitasController::class, 'store']);
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
