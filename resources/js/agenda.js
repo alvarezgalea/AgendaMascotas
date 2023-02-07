@@ -1,6 +1,7 @@
 $( document ).ready(function() {
     
   $('#btnGuardar').click(function(e){
+       
           e.preventDefault()
           var urls =  $('form').attr('action');
           var form =  $('form');
@@ -46,6 +47,9 @@ let formulario = document.querySelector("form");
     }
   
   });
+
+
+
   
 calendar.render();
 

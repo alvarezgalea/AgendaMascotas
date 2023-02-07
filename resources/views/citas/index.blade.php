@@ -2,16 +2,19 @@
 @section('content')
 
 
-
+<h2>DESAFIO 1.3 CRUD CITAS</h2>
+<p>Por favor introduzca la cita que desea agendar:</p>
 
 
 <!-- modal -->
 <div class="container">
-<div class="bd-example">
+<div class="bd-example" style="align-content: center;">
   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#evento">
-    Launch demo modal
+    Agendar Cita
   </button>
 </div>
+
+</br>
 
 <div class="modal fade" id="evento" tabindex="-1" aria-labelledby="exampleModalLiveLabel" aria-hidden="true">
   <div class="modal-dialog">
